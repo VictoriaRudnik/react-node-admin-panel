@@ -1,0 +1,38 @@
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
+  height: 78px;
+}
+
+.containerMenu {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.logoText,
+.logoDot {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.logoDot {
+  color: #ff4c4f;
+}

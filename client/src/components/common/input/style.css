@@ -1,0 +1,46 @@
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: rgb(232, 240, 254);
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 1px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+
+.label {
+  color: grey;
+  margin: 16px 0 1px 0;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-icon {
+  margin: 0 -35px;
+}
+
+.right-icon {
+  margin: 0 2%;
+  width: 2.5%;
+}
+
+
+.error {
+  color: red;
+  margin: 1px 0;
+  width: 419px;
+}
+
+.input__error {
+  border-color: red;
+}
